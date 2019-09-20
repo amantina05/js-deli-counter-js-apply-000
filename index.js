@@ -42,6 +42,7 @@ function nowServing (katzDeliLine) {
     return 'There is nobody waiting to be served!'
   }
   if(katzDeliLine.length < 1 ){
+    let new = 
     return `Currently serving ${katzDeliLine[0]}.`
     katzDeliLine.unshift()
   }
@@ -71,18 +72,7 @@ function currentLine (line){
     if(line[i] < 1){
       newArr.push(i + 1 + '.' + line[i])
     }
-    return `The line is currently: ${newArr`
+    return "The line is currently: " + newArr.join(", ");
   }
-  
 }
-//   describe('currentLine(line)', () => {
-//     it('returns "The line is currently empty." if no one is in line', () => {
-//       expect(currentLine([])).toEqual("The line is currently empty.");
-//     });
-
-//     it('says who is in line when there are people waiting', () => {
-//       expect(currentLine(["Bill", "Jane", "Ann"])).toEqual("The line is currently: 1. Bill, 2. Jane, 3. Ann");
-//     });
-//   });
-// })
 
