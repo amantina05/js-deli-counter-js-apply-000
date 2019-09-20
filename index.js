@@ -71,7 +71,7 @@ function currentLine (line){
     if(line[i] < 1){
       newArr.push(i + 1 + '.' + line[i])
     }
-    return `The line is currently: ${line[i]}`
+    return `The line is currently: ${newArr`
   }
   
 }
