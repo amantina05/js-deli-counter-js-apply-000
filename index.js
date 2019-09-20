@@ -43,7 +43,7 @@ function nowServing (katzDeliLine) {
   }
   if(katzDeliLine.length < 1 ){
     let new = katzDeliLine.shift()
-    return `Currently serving ${new}.`
+    return 'Currently serving ' + new + '.'
   }
 }
 
