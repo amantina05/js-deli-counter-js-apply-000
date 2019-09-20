@@ -1,10 +1,10 @@
-// function takeANumber(currPeople, newPerson){
-//   let newArr = []
-//   let newPerson = 'Ada'
-//   let index = 1
-//   newArr.push('Welcome, ' + newPerson + '. You are number ' + index + ' in line.')
-//   return newArr
-// }
+function takeANumber(currPeople, newPerson){
+  let newArr = []
+  let newPerson = 'Ada'
+  let index = 1
+  newArr.push('Welcome, ' + newPerson + '. You are number ' + index + ' in line.')
+  return newArr
+}
 
 // describe('deli', () => {
 //   describe('takeANumber', () => {
@@ -47,20 +47,6 @@ function nowServing (katzDeliLine) {
   }
 }
 
-  // describe('nowServing', () => {
-  //   it('returns the line is empty when no one is on line', () => {
-  //     expect(nowServing([])).toEqual("There is nobody waiting to be served!");
-  //   });
-
-  //   it('returns an announcement about the person it is serving, and shifts the line', () => {
-  //     const deliLine = ["Steven", "Blake", "Avi"]
-  //     expect(nowServing(deliLine)).toEqual("Currently serving Steven.");
-  //     expect(deliLine).toEqual(["Blake", "Avi"]);
-  //   });
-  // });
-  
-  
-// 2. Build a function `nowServing`. This function should accept the current line of people (`katzDeliLine`) and return the first person in line and then remove that individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
 
 function currentLine (line){
   if (line.length === 0){
