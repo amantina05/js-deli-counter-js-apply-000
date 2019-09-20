@@ -1,8 +1,8 @@
 function takeANumber(currPeople, newPerson){
-  if (currPeople.length > 0){
+  if (currPeople.length > 0)
     currPeople.push(newPerson)
   return ('Welcome, ' + newPerson + '. You are number ' + currPeople.length + ' in line.')
-  }
+  
 }
 
 
