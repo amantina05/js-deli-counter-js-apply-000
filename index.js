@@ -1,4 +1,4 @@
-function takeANumber(currPeople, newPerson){
+function takeANumber(katzDeli, newCustomer){
   if (currPeople.length > 0)
     currPeople.push(newPerson)
   return ('Welcome, ' + newPerson + '. You are number ' + currPeople.length + ' in line.')
