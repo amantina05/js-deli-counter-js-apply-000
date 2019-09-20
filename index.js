@@ -1,10 +1,10 @@
-function takeANumber(currPeople, newPerson){
-  let newArr = []
-  let newPerson = 'Ada'
-  let index = 1
-  newArr.push('Welcome, ' + newPerson + '. You are number ' + index + ' in line.')
-  return newArr
-}
+// function takeANumber(currPeople, newPerson){
+//   let newArr = []
+//   let newPerson = 'Ada'
+//   let index = 1
+//   newArr.push('Welcome, ' + newPerson + '. You are number ' + index + ' in line.')
+//   return newArr
+// }
 
 // describe('deli', () => {
 //   describe('takeANumber', () => {
@@ -43,7 +43,7 @@ function nowServing (katzDeliLine) {
   }
   if(katzDeliLine.length < 1 ){
     let new = katzDeliLine.shift()
-    return `Currently serving ${katzDeliLine[0]}.`
+    return `Currently serving ${new}.`
   }
 }
 
